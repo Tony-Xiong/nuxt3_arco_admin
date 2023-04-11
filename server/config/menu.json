@@ -1,0 +1,66 @@
+[
+  {
+    "name": "示例",
+    "id": "1",
+    "type": "navbar",
+    "icon": "",
+    "pid": "",
+    "url": ""
+  },
+  {
+    "name": "系统设置",
+    "id": "2",
+    "type": "navbar",
+    "icon": "",
+    "pid": "",
+    "url": ""
+  },
+  {
+    "name": "看板",
+    "id": "1.1",
+    "type": "sidebar",
+    "icon": "",
+    "pid": "1",
+    "url": "/dashboard"
+  },
+  {
+    "name": "列表示例",
+    "id": "1.2",
+    "type": "sidebar",
+    "icon": "",
+    "pid": "1",
+    "url": ""
+  },
+  {
+    "name": "普通列表",
+    "id": "1.2.1",
+    "type": "sidebar",
+    "icon": "",
+    "pid": "1.2",
+    "url": "/list/normal"
+  },
+  {
+    "name": "树形列表",
+    "id": "1.2.2",
+    "type": "sidebar",
+    "icon": "",
+    "pid": "1.2",
+    "url": "/list/tree"
+  },
+  {
+    "name": "表单示例",
+    "id": "1.3",
+    "type": "sidebar",
+    "icon": "",
+    "pid": "1",
+    "url": "/form"
+  },
+  {
+    "name": "菜单设置",
+    "id": "2.1",
+    "type": "sidebar",
+    "icon": "",
+    "pid": "2",
+    "url": "/menu"
+  }
+]

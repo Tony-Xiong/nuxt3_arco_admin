@@ -1,0 +1,25 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@arco-design/web-vue": "^2.44.7",
+    "@nuxtjs/tailwindcss": "^6.6.5",
+    "@vueuse/nuxt": "^9.13.0",
+    "nuxt": "^3.3.3",
+    "nuxt-icon": "^0.3.3",
+    "nuxt-proxy-request": "^1.1.6",
+    "sass": "^1.60.0",
+    "sass-loader": "^13.2.2"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.4.7",
+    "@vueuse/core": "^9.13.0"
+  }
+}

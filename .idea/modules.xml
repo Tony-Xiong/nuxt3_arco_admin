@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../hello-arco-pro/.idea/hello-arco-pro.iml" filepath="$PROJECT_DIR$/../hello-arco-pro/.idea/hello-arco-pro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../nuxt3_arco_admin/.idea/nuxt3_arco_admin.iml" filepath="$PROJECT_DIR$/../nuxt3_arco_admin/.idea/nuxt3_arco_admin.iml" />
+    </modules>
+  </component>
+</project>
