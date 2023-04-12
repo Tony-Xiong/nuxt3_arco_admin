@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import { useDark, useToggle } from '@vueuse/core'
-
 const isDark = useDark()
 const toggleTheme = useToggle(isDark)
 const handleToggleTheme = () => {
@@ -12,9 +10,9 @@ const handleToggleTheme = () => {
     toggleTheme();
 };
 
-const { toggle } = useFullscreen();
+const { toggle,isFullscreen } = useFullscreen();
 </script>
 <template>
-    <p class="tool-icon"><IconFullscreen ref="el" @click="toggle()" /></p>
+    <p class="tool-icon"><component :is="isFullscreen? 'IconFullscreenExit':'IconFullscreen'" ref="el" @click="toggle()" /></p>
     <p class="tool-icon"><component :is="isDark? 'IconMoon':'IconSun'" @click="handleToggleTheme()" /></p>
 </template>

@@ -5,7 +5,9 @@
                 <a-breadcrumb-item>
                     <icon-home/>
                 </a-breadcrumb-item>
-                <a-breadcrumb-item>{{title}}</a-breadcrumb-item>
+                <template v-for="i in title" >
+                    <a-breadcrumb-item>{{i}}</a-breadcrumb-item>
+                </template>
             </a-breadcrumb>
             <NuxtPage />
         </a-space>
@@ -14,11 +16,11 @@
 <script setup lang="ts">
 const route = useRoute()
 const menuStore = useMenuStore()
-const defaultTitle = menuStore.activeSideMenu.breadcrumb.join('/')
+const defaultTitle = menuStore.activeSideMenu.breadcrumb
 const title = ref(defaultTitle)
 menuStore.$subscribe((mutation, state) => {
     const activeSideMenu = state.activeSideMenu;
-    title.value = activeSideMenu.breadcrumb.join('/')
+    title.value = activeSideMenu.breadcrumb
 })
 </script>
 <style>

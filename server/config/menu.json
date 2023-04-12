@@ -56,11 +56,19 @@
     "url": "/form"
   },
   {
-    "name": "菜单设置",
+    "name": "菜单",
     "id": "2.1",
     "type": "sidebar",
     "icon": "",
     "pid": "2",
+    "url": ""
+  },
+  {
+    "name": "菜单设置",
+    "id": "2.1.1",
+    "type": "sidebar",
+    "icon": "",
+    "pid": "2.1",
     "url": "/menu"
   }
 ]

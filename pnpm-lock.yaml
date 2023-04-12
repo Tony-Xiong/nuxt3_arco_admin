@@ -6,6 +6,7 @@ specifiers:
   '@pinia/nuxt': ^0.4.7
   '@vueuse/core': ^9.13.0
   '@vueuse/nuxt': ^9.13.0
+  font-awesome: ^4.7.0
   nuxt: ^3.3.3
   nuxt-icon: ^0.3.3
   nuxt-proxy-request: ^1.1.6
@@ -15,6 +16,7 @@ specifiers:
 dependencies:
   '@pinia/nuxt': 0.4.7
   '@vueuse/core': 9.13.0
+  font-awesome: 4.7.0
 
 devDependencies:
   '@arco-design/web-vue': 2.44.7
@@ -2469,6 +2471,11 @@ packages:
       debug:
         optional: true
     dev: true
+
+  /font-awesome/4.7.0:
+    resolution: {integrity: sha512-U6kGnykA/6bFmg1M/oT9EkFeIYv7JlX3bozwQJWiiLz6L0w3F5vBVPxHlwyX/vtNq1ckcpRKOB9f2Qal/VtFpg==}
+    engines: {node: '>=0.10.3'}
+    dev: false
 
   /formdata-polyfill/4.0.10:
     resolution: {integrity: sha512-buewHzMvYL29jdeQTVILecSaZKnt/RJWjoZCF5OW60Z67/GmSLBkOFM7qh1PI3zFNtJbaZL5eQu1vLfazOwj4g==}

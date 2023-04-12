@@ -1,6 +1,7 @@
 import ArcoVue from '@arco-design/web-vue';
 import ArcoVueIcon from '@arco-design/web-vue/es/icon';
 import '@arco-design/web-vue/dist/arco.css';
+import 'font-awesome/css/font-awesome.css';
 
 export default defineNuxtPlugin(nuxtApp => {
     nuxtApp.vueApp.use(ArcoVue)
